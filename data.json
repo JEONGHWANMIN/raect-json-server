@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "writer": "json",
+      "title": "hi",
+      "text": "wdwd",
+      "id": 2
+    },
+    {
+      "writer": "ㅁㄴㅇㅇ",
+      "title": "ㄴㅁㅇ",
+      "text": "ㅁㄴㅇ",
+      "id": 3
+    }
+  ]
+}

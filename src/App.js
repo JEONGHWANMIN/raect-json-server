@@ -15,7 +15,7 @@ function App() {
         <Route path="/form" element={<Form />} />
         <Route path="/post/:id" element={<FormId />} />
       </Routes>
-  </BrowserRouter>
+    </BrowserRouter>
   );
 }
 

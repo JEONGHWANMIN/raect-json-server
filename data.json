@@ -1,16 +1,22 @@
 {
   "posts": [
     {
-      "writer": "json",
-      "title": "hi",
-      "text": "wdwd",
-      "id": 2
+      "writer": "asdasd",
+      "title": "aasdas",
+      "text": "asdasd",
+      "id": 15
     },
     {
-      "writer": "ㅁㄴㅇㅇ",
-      "title": "ㄴㅁㅇ",
-      "text": "ㅁㄴㅇ",
-      "id": 3
+      "writer": "asd",
+      "title": "asd",
+      "text": "asd",
+      "id": 16
+    },
+    {
+      "writer": "asd",
+      "title": "asd",
+      "text": "asdasd",
+      "id": 17
     }
   ]
 }

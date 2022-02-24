@@ -3,9 +3,11 @@
 ### json-server excute `npx json-server ./data.json --port 4000`
 
 <hr>
-React , json-server를 이용한 CRUD 구현 
-styled compoents  -> js in css 방식사용
-styled reset 사용 
+React , json-server를 이용한 CRUD 구현 <br>
+styled compoents  -> js in css 방식사용 <br>
+styled reset 사용 <br>
+form data 형식 리팩토링 -> 많은 useState를 하나로 묶어서 처리 <br>
+처리방식 : https://ghksals0904.tistory.com/98?category=1006712
 
 <h3>Problem</h3>
 1. map 함수 오류 <br>

@@ -4,34 +4,26 @@ import axios from 'axios'
 
 export default function Form() {
   let navigate = useNavigate();
-  const [writer, setWriter] = useState("")
-  const [title, setTitle] = useState("")
-  const [text, setText] = useState("")
+  const [formData , setFormData] = useState({
+    writer : "",
+    title : "",
+    text : ""
+  })
+  const {writer , title , text} = formData
   const onChange = (e) => {
-    const { name } = e.target
-    if (name === 'writer') {
-      setWriter(e.target.value)
-    } else if (name === 'title') {
-      setTitle(e.target.value)
-    } else if (name === 'text') {
-      setText(e.target.value)
-    }
+    setFormData( (preState)  => ({
+      ...preState ,
+      [e.target.name] : e.target.value
+    }))
   }
   const onSubmit = (e) => {
     e.preventDefault();
-    const body = {
-      writer,
-      title,
-      text
-    }
-    console.log(body);
-    setWriter('')
-    setTitle('')
-    setText('')
+    console.log(formData);
+
     axios
-      .post("http://localhost:4000/posts", body)
+      .post("http://localhost:4000/posts", formData)
       .then((res) => console.log(res));
-    return navigate("/");
+      navigate(-1)
   }
   return (
     <>

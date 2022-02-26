@@ -23,10 +23,13 @@ export default function NotesPosts() {
     <NotesPostsStyled>
       {posts ? posts.map((post) => {
         return <div key={post.id}>
-          <h1 ><Link to={`post/${post.id}`}>{post.title}</Link></h1>
+          <Link to={{
+            pathname: `view/${post.id}`
+          }}>{post.title}</Link>
+          <button ><Link to={`post/${post.id}`}>수정</Link></button>
           <button id={post.id} onClick={onClick} >삭제</button>
         </div>
       }) : <h1>Loading....</h1>}
-    </NotesPostsStyled>
+    </NotesPostsStyled >
   )
 }

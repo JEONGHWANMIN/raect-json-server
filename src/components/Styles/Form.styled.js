@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FormStyled = styled.form`
+export const FormStyled = styled.div`
   & > form {
   display: flex;
   flex-direction: column;
@@ -9,6 +9,8 @@ export const FormStyled = styled.form`
     margin-bottom: 20px;
     height: 30px;
   }
+  CKEditor {
+    padding: 20rem;
+  }
 }
-
 `

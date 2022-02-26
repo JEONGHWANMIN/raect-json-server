@@ -20,6 +20,7 @@ export const NotesPostsStyled = styled.div`
     padding: 1rem;
   }
   & > div > button {
+    display: flex;
     background-color: beige;
   }
 `

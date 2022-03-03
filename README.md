@@ -10,6 +10,7 @@ form data 형식 리팩토링 -> 많은 useState를 하나로 묶어서 처리 <
 처리방식 : https://ghksals0904.tistory.com/98?category=1006712<br>
 ckeditor5 사용해서 <"textarea"> 가 아닌 좀더 편한 에디터 사용 <br>
 -> cheditor5 사용 이유 : 소프트웨어 호환성이 좋고 , 설정이 용이하고 , 외관이 적으로 맘에 들었다.
+axios 
 
 <h3>문제해결 및 알게된 점</h3>
 1. map 함수 오류 <br>
